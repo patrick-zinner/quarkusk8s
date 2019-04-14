@@ -35,7 +35,7 @@ This property is used to define how our images should be tagged.
 
 Now check the `Makefile`. The `build` recipe does three things:
 
-* It configures the shell to use Minikube's Docker host. By doing so, Minikube does not need to pull the image.
+* It configures the shell to use Minikube as Docker host. By doing so, Minikube does not need to pull the image.
 * Pruning unused Docker images. **Attention:** This is just for testing. Obviously you don't want to delete all your images
 just becaused they are not running in a container right now.
 * Building the app and a Docker image by using Maven and the dockerfile-maven plugin. Mind the argument that is passed: 
