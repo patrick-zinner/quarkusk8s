@@ -23,7 +23,7 @@ and redeploy your app.
 
 ### How does it work?
 While trying to find a way to develop with minikube locally, I've ran into the problem that
-rebuilding and tagging a docker image with `latest` does work in combination with
+rebuilding and tagging a docker image with `latest` doesn't work in combination with
 `kubectl apply`. Kubernetes won't do anything if you apply the same configuration file without any changes.
 
 I also didn't want to push the image to a Docker registry everytime I make code changes and make my local
