@@ -22,7 +22,7 @@ After making some changes to your Java application, you can simply use `make bui
 and redeploy your app.
 
 ### How does it work?
-While finding a way to develop with minikube locally, I've ran into the problem that
+While trying to find a way to develop with minikube locally, I've ran into the problem that
 rebuilding and tagging a docker image with `latest` does work in combination with
 `kubectl apply`. Kubernetes won't do anything if you apply the same configuration file without any changes.
 
